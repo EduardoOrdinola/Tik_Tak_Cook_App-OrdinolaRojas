@@ -148,7 +148,7 @@ body{
 }
 
 .receta {
-    background-color:#deb887;
+    background-image: linear-gradient(#deb887, #FFFFFF);
     padding: 20px;
     border-radius: 10px;
     gap: 20px;
@@ -172,6 +172,7 @@ body{
     background-color: #FFDEAD;
     color: #000000;
     cursor: pointer;
+    transform: translateX(220px);
 }
 
 /* SOBRE NOSOTROS */
