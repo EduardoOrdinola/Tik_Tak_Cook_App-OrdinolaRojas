@@ -5,93 +5,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>GALERIA</title>
 </head>
 <body>
 <!--HEADER-->
-    <header class="barrainicio">
-        <span><a href="../index.html">Tik Tak Cook App</a></span>
-            <ul class="menu">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="recetas.html">GALERIA</a></li>
-                <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
-                <li><a href="login.html">LOGIN</a></li>
-                <li><a href="register.html">REGISTER</a></li>
-                <li><a href="soporte.html">AYUDA</a></li>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="../index.html">TIK TAK COOK APP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse pt-2" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item h5">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="recetas.html">GALERIA</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="login.html">LOGIN</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="register.html">REGISTRO</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="soporte.html">AYUDA</a>
+            </li>
             </ul>
-    </header>
-    <hr/>
+        </div>
+      <form class="d-flex">
+        <input type="text" class="form-control me-2"/>
+        <button type="submit" class="btn btn-dark">BUSCAR</button>
+      </form>
+    </div>
+  </nav>
+<hr/>
 <!--CONTENT-->
-    <article class="contenedor">
-        <div class="opciones">
-            <select>
-                <option selected="selected">Tipo de Comida</option>
-                <option>Desayuno</option>
-                <option>Almuerzo</option>
-                <option>Cena</option>
-                <option>De todo</option>
-            </select>
-            <select>
-                <option selected="selected">Dieta</option>
-                <option>Baja en grasas</option>
-                <option>Alta en grasas</option>
-                <option>Sin gluten</option>
-                <option>Proteica</option>
-                <option>Vegetariano</option>
-                <option>De todo</option>
-            </select>
-            <select>
-                <option selected="selected">Tiempo de preparación</option>
-                <option>20 min - 30 min</option>
-                <option>40 min - 60 min</option>
-                <option>60 min - 90 min</option>
-                <option>De todo</option>
-            </select>
-            <select>
-                <option selected="selected">Ingredientes principales</option>
-                <option>Carnes</option>
-                <option>Pollo</option>
-                <option>Pescado</option>
-                <option>Vegetales</option>
-                <option>De todo</option>
-            </select>
-            <select>
-                <option selected="selected">Cocina</option>
-                <option>China</option>
-                <option>Japonesa</option>
-                <option>Peruana</option>
-                <option>Argentina</option>
-                <option>De todo</option>
-            </select>
-        </div>
-        <h3 class="titulorecetario">RECETAS RECIENTEMENTE BUSCADAS</h3>
-        <div class="recetario">
-            <div class="receta">
-                <img class="recetario__img" src="./../img/galeria1.jpg" alt="GALERIA1" title="GALERIA1"/> 
-                <p class="recetario__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quod repellat repellendus distinctio provident veritatis suscipit, exercitationem fugit, architecto, ab laudantium eos dignissimos. Optio laudantium harum corrupti repudiandae suscipit excepturi!</p>
-                <button class="recetario__button">Ver más</button>
-            </div>
-            <div class="receta">
-                <img class="recetario__img" src="./../img/galeria2.jpg" alt="GALERIA2" title="GALERIA2"/> 
-                <p class="recetario__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, quibusdam! Aliquid eos sint molestiae officiis dolor praesentium ex magnam alias excepturi, deserunt placeat accusamus accusantium sequi ad in quam veniam!</p>
-                <button class="recetario__button">Ver más</button>
-            </div>
-            <div class="receta">
-                <img class="recetario__img" src="./../img/galeria3.jpg" alt="GALERIA3"  title="GALERIA3"/> 
-                <p class="recetario__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est saepe voluptas reiciendis quibusdam ad. Id reprehenderit fuga dignissimos voluptate, earum in doloremque, assumenda consequuntur dolor libero, quia similique ut eveniet.</p>
-                <button class="recetario__button">Ver más</button>
-            </div>
-        </div>
-    </article>
-    <hr/>
-<!--FOOTER-->        
-    <footer class="footer">
-        <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="recetas.html">GALERIA</a></li>
-            <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
-            <li><a href="soporte.html">AYUDA</a></li>
+<article class="container">
+    <div class="btn-group">
+        <button class="btn btn-dark dropdown-toggle mt-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Tipo de comida
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Desayuno</a></li>
+            <li><a class="dropdown-item" href="#">Almuerzo</a></li>
+            <li><a class="dropdown-item" href="#">Cena</a></li>
+            <li><a class="dropdown-item" href="#">De todo</a></li>
         </ul>
-    </footer>
+    </div>
+        
+    <div class="btn-group">
+        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" aria-expanded="false">
+            Dieta
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Baja en grasas</a></li>
+            <li><a class="dropdown-item" href="#">Alta en grasas</a></li>
+            <li><a class="dropdown-item" href="#">Sin gluten</a></li>
+            <li><a class="dropdown-item" href="#">Proteica</a></li>
+            <li><a class="dropdown-item" href="#">Vegetariana</a></li>
+            <li><a class="dropdown-item" href="#">De todo</a></li>
+        </ul>
+    </div>
+        
+    <div class="btn-group">
+        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            Preparación
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><a class="dropdown-item" href="#">20 min - 30 min</a></li>
+            <li><a class="dropdown-item" href="#">40 min - 60 min</a></li>
+            <li><a class="dropdown-item" href="#">60 min - 90 min</a></li>
+            <li><a class="dropdown-item" href="#">De todo</a></li>
+        </ul>
+    </div>
+    
+    <div class="btn-group">
+        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            Ingredientes principales
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+            <li><a class="dropdown-item" href="#">Carnes</a></li>
+            <li><a class="dropdown-item" href="#">Pollo</a></li>
+            <li><a class="dropdown-item" href="#">Pescado</a></li>
+            <li><a class="dropdown-item" href="#">Vegetales</a></li>
+            <li><a class="dropdown-item" href="#">De todo</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            Cocina
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+            <li><a class="dropdown-item" href="#">China</a></li>
+            <li><a class="dropdown-item" href="#">Japonesa</a></li>
+            <li><a class="dropdown-item" href="#">Peruana</a></li>
+            <li><a class="dropdown-item" href="#">Argentina</a></li>
+            <li><a class="dropdown-item" href="#">De todo</a></li>
+        </ul>
+    </div>
+    <h3 class="fw-bold text-center mt-3">RECETAS RECIENTEMENTE BUSCADAS</h3>
+    <div class="row">
+        <div class="col-md-4 mt-3">
+            <div class="card" style="width: 100%">
+                <img src="./../img/galeria1.jpg" class="card-img-top" alt="GALERIA1">
+                <div class="card-body">
+                    <h5 class="card-title text-center">NOMBRE PLATO</h5>
+                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-dark">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="card" style="width: 100%">
+                <img src="./../img/galeria2.jpg" class="card-img-top" alt="GALERIA2">
+                <div class="card-body">
+                <h5 class="card-title text-center">NOMBRE PLATO</h5>
+                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="card" style="width: 100%">
+                <img src="./../img/galeria3.jpg" class="card-img-top" alt="GALERIA3">
+                <div class="card-body">
+                <h5 class="card-title text-center">NOMBRE PLATO</h5>
+                <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-dark">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<hr/>
+<!--FOOTER-->        
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="../index.html">INICIO</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="recetas.html">GALERIA</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="login.html">LOGIN</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="register.html">REGISTRO</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="soporte.html">AYUDA</a>
+        </div>
+    </div>
+</footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

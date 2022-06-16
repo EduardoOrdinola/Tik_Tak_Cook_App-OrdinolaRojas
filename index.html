@@ -11,47 +11,95 @@
 </head>
 <body>
 <!--HEADER-->
-    <header class="barrainicio">
-        <span><a href="./index.html">Tik Tak Cook App</a></span>
-            <ul class="menu">
-                <li><a href="./index.html">INICIO</a></li>
-                <li><a href="./pages/recetas.html">GALERIA</a></li>
-                <li><a href="./pages/sobre-nosotros.html">SOBRE NOSOTROS</a></li>
-                <li><a href="./pages/login.html">LOGIN</a></li>
-                <li><a href="./pages/register.html">REGISTER</a></li>
-                <li><a href="./pages/soporte.html">AYUDA</a></li>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="./index.html">TIK TAK COOK APP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse pt-2" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item h5">
+                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="./pages/recetas.html">GALERIA</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="./pages/sobre-nosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="./pages/login.html">LOGIN</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="./pages/register.html">REGISTRO</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="./pages/soporte.html">AYUDA</a>
+            </li>
             </ul>
-    </header>
-    <hr/>
+        </div>
+      <form class="d-flex">
+        <input type="text" class="form-control me-2"/>
+        <button type="submit" class="btn btn-dark">BUSCAR</button>
+      </form>
+    </div>
+  </nav>
+<hr/>
 <!--CONTENT-->
-    <article class="content">
-            <h2 class="tituloprincipal">RECETA DEL MES</h2>
-            <div class="contenedorprincipal">
-                <img id="recetadelmes" src="./img/receta-del-mes.jpg" alt="receta-del-mes" width="600px" title="RECETA DEL MES"/> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id, quod illo aperiam hic, quasi iure ut a fugit magnam rem sunt ratione! Vitae molestiae cumque dignissimos nesciunt eaque commodi.</p>
+    <article class="container">            
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/receta-del-mes.jpg" class="img-fluid img-thumbnail" alt="receta-del-mes">
             </div>
-            <h3 class="subtitulo">PUBLICACIONES MAS POPULARES</h3>
-            <div class="galeria2">
-                <div>
-                    <img id="top2" src="./img/top2.jpg" alt="segundo-platillo" width="400px" title="SEGUNDO PLATILLO"/> 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id, quod illo aperiam hic, quasi iure ut a fugit magnam rem sunt ratione! Vitae molestiae cumque dignissimos nesciunt eaque commodi.</p>
-                </div>
-                <div>    
-                    <img id="top3" src="./img/top3.jpg" alt="tercer-platillo" width="400px" title="TERCER PLATILLO"/> 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id, quod illo aperiam hic, quasi iure ut a fugit magnam rem sunt ratione! Vitae molestiae cumque dignissimos nesciunt eaque commodi.</p>
-                </div>
+            <div class="col-md-6 my-auto">
+                <h3 class="fw-bold text-center">RECETA DEL MES</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae accusamus dolores nisi, perferendis ullam eaque ducimus a numquam earum blanditiis iure animi consequuntur recusandae distinctio odio? Vel totam deserunt officiis.</p>
             </div>
+        </div>
+        <h3 class="fw-bold text-center m-3">PUBLICACIONES MAS POPULARES</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/top2.jpg" class="img-fluid img-thumbnail" alt="segundo-platillo">
+            </div>
+            <div class="col-md-6 my-auto">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae accusamus dolores nisi, perferendis ullam eaque ducimus a numquam earum blanditiis iure animi consequuntur recusandae distinctio odio? Vel totam deserunt officiis.</p>
+            </div>
+        </div>
+        <br/>
+        <div class="row flex-row-reverse">
+            <div class="col-md-6" >
+                <img src="./img/top3.jpg" class="img-fluid img-thumbnail" alt="tercer-platillo">
+            </div>
+            <div class="col-md-6 my-auto">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae accusamus dolores nisi, perferendis ullam eaque ducimus a numquam earum blanditiis iure animi consequuntur recusandae distinctio odio? Vel totam deserunt officiis.</p>
+            </div>
+        </div>
     </article>
     <hr/>
-<!--FOOTER-->        
-    <footer>
-        <ul class="footer">
-            <li><a href="./index.html">INICIO</a></li>
-            <li><a href="./pages/recetas.html">GALERIA</a></li>
-            <li><a href="./pages/Sobre-nosotros.html">SOBRE NOSOTROS</a></li>
-            <li><a href="./pages/Soporte.html">AYUDA</a></li>
-        </ul>
-    </footer>
+<!--FOOTER-->
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="./index.html">INICIO</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="./pages/recetas.html">GALERIA</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="./pages/sobre-nosotros.html">SOBRE NOSOTROS</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="./pages/login.html">LOGIN</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="./pages/register.html">REGISTRO</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="./pages/soporte.html">AYUDA</a>
+        </div>
+    </div>
+</footer>       
 <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

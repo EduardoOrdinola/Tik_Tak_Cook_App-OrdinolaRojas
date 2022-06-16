@@ -5,43 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Sobre nosotros</title>
 </head>
 <body>
 <!--HEADER-->
-    <header class="barrainicio">
-        <span><a href="../index.html">Tik Tak Cook App</a></span>
-            <ul class="menu">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="recetas.html">GALERIA</a></li>
-                <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
-                <li><a href="login.html">LOGIN</a></li>
-                <li><a href="register.html">REGISTER</a></li>
-                <li><a href="soporte.html">AYUDA</a></li>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="../index.html">TIK TAK COOK APP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse pt-2" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item h5">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="recetas.html">GALERIA</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="login.html">LOGIN</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="register.html">REGISTRO</a>
+            </li>
+            <li class="nav-item h5">
+                <a class="nav-link active" href="soporte.html">AYUDA</a>
+            </li>
             </ul>
-    </header>
-    <hr/>
+        </div>
+      <form class="d-flex">
+        <input type="text" class="form-control me-2"/>
+        <button type="submit" class="btn btn-dark">BUSCAR</button>
+      </form>
+    </div>
+  </nav>
+<hr/>
 <!--CONTENT-->
-    <article>
-        <h2 class="nuestrahistoria">Nuestra historia</h2>
-            <div class="sobrenosotros1">
-                <img id="sobre-nosotros" src="./../img/sobre-nosotros.jpg" alt="sobre-nosotros" title="Sobre nosotros"/> 
-                <p>Tik Tak Cook App, es una idea de negocio que nació a partir del "Aprender a cocinar", buscamos armar una comunidad que busque ayudarse a través de una app para incentivar el aprendizaje de la cocina. Esta app te involucra en el proceso de aprendizaje, brindandote recetas en base a tus ingredientes, tiempo y dificultas. Además, permitirá que sus usuarios interactúen entre ellos mediante la "gamification" de sus perfiles, mientras más aprendas, más logros tendrás.</p> 
-            </div>
-            <div class="sobrenosotros2">
-                <h2>Fundadores</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste error, et non velit quia molestiae nihil laboriosam eos vero enim quasi quos reprehenderit culpa cum consequatur dolores corrupti. Deserunt.</p>
-            </div>
-    </article>
-    <hr/>
+<article class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./../img/sobre-nosotros.jpg" class="img-fluid img-thumbnail" alt="sobre-nosotros"/> 
+        </div>
+        <div class="col-md-6 my-auto">
+            <h2 class="fw-bold text-center">Nuestra historia</h2>
+            <p class="text-center">Tik Tak Cook App, es una idea de negocio que nació a partir del "Aprender a cocinar", buscamos armar una comunidad que busque ayudarse a través de una app para incentivar el aprendizaje de la cocina. Esta app te involucra en el proceso de aprendizaje, brindandote recetas en base a tus ingredientes, tiempo y dificultas. Además, permitirá que sus usuarios interactúen entre ellos mediante la "gamification" de sus perfiles, mientras más aprendas, más logros tendrás.</p> 
+        </div>
+    </div>
+    <h2 class="fw-bold text-center m-3">FUNDADORES</h2>
+    <div class="row">
+        <div class="col-md-12 my-auto">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur laboriosam obcaecati non. Delectus magnam, consectetur magni aliquam, velit pariatur voluptatem hic asperiores doloribus, optio voluptas facere impedit cumque quisquam.</p> 
+        </div>
+    </div>
+</article>
+<hr/>
 <!--FOOTER-->        
-    <footer class="footer">
-        <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="recetas.html">GALERIA</a></li>
-            <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
-            <li><a href="soporte.html">AYUDA</a></li>
-        </ul>
-    </footer>
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="../index.html">INICIO</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="recetas.html">GALERIA</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="login.html">LOGIN</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="register.html">REGISTRO</a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+            <a href="soporte.html">AYUDA</a>
+        </div>
+    </div>
+</footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
