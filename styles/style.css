@@ -10,7 +10,3 @@ body{
     background-size: cover;
     width: 100%;
 }
-
-.collapse {
-    justify-content: flex-end;
-}
