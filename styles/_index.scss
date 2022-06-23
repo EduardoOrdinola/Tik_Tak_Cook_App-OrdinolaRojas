@@ -1,0 +1,43 @@
+.tituloprincipal {
+    color: #000000;
+    margin-left: 3%;
+}
+.contenedorprincipal {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    img {
+        width: 100%;
+        margin-right: 4%;
+        margin-left: 4%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+.subtitulo {
+    color: #000000;
+    width: 90%;
+    margin-left: 4%;
+}
+.galeria2 {
+    width: 100%;
+    color: #000000;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 30px;
+    img {
+        margin-right: 2%;
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+    }
+}

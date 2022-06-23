@@ -1,0 +1,55 @@
+@media screen and (max-width: 1025px){
+    .contenedorprincipal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contenedorprincipal img {
+        width: 80%;
+    }
+    .galeria2 {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 840px) {
+    .contenedor .opciones {
+        margin: 30px;
+    }
+
+    .contenedor .recetario {
+        display: block;
+    }
+
+    .contenedor .recetario .receta {
+        margin: 10%;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .sobrenosotros1 {
+        display: block;
+    }
+
+    .sobrenosotros1 img {
+        max-width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 480px)  {
+    .box {
+        background-color: #FFE4C4;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 830px)  {
+    .barrainicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

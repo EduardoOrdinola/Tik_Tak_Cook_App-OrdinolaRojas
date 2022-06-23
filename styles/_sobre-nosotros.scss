@@ -1,0 +1,29 @@
+.nuestrahistoria {
+    margin-left: 3%;
+}
+
+.sobrenosotros1 {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    text-align: center;
+    font-size: 30px;
+
+    img{
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+}
+
+.sobrenosotros2 {
+    h2 {
+        margin-left: 4%;
+    }
+    
+    p {
+        margin: 60px;
+        text-align: center;
+        font-size: 30px;
+    }
+}

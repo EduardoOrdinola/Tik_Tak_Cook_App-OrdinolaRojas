@@ -1,0 +1,42 @@
+@import "./header";
+@import "./index";
+@import "./recetas";
+@import "./sobre-nosotros";
+@import "./login-register-ayuda";
+@import "./footer";
+@import "./responsive";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    font-size: 40px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: inline;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/gold-brush-stroke-texture-background-illustration_53876-157380.jpg?w=1480");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+

@@ -1,0 +1,18 @@
+.barrainicio {
+    width: 100%;
+    color: #000000;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu {
+    margin: 0px 0px 3px 0px;
+
+    li {
+        list-style: none;
+        padding: 5px;
+        display: inline;
+    }
+}

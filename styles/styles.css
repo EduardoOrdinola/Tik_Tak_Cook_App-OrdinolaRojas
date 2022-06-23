@@ -1,0 +1,274 @@
+.barrainicio {
+  width: 100%;
+  color: #000000;
+  margin: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.menu {
+  margin: 0px 0px 3px 0px;
+}
+.menu li {
+  list-style: none;
+  padding: 5px;
+  display: inline;
+}
+
+.tituloprincipal {
+  color: #000000;
+  margin-left: 3%;
+}
+
+.contenedorprincipal {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+}
+.contenedorprincipal img {
+  width: 100%;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.subtitulo {
+  color: #000000;
+  width: 90%;
+  margin-left: 4%;
+}
+
+.galeria2 {
+  width: 100%;
+  color: #000000;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 30px;
+}
+.galeria2 img {
+  margin-right: 2%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+.galeria2 p {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
+  gap: 40px;
+}
+
+.opciones {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border: 2px solid #000000;
+  justify-self: center;
+  margin-top: 1%;
+  padding: 20px;
+}
+
+.titulorecetario {
+  margin-top: 2%;
+  margin-left: 10%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.recetario {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  gap: 40px;
+}
+.recetario img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.recetario p {
+  text-align: center;
+  padding: 10px;
+}
+.recetario button {
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #FFDEAD;
+  color: #000000;
+  cursor: pointer;
+}
+
+.receta {
+  background-image: linear-gradient(#deb887, #FFFFFF);
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.nuestrahistoria {
+  margin-left: 3%;
+}
+
+.sobrenosotros1 {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+  text-align: center;
+  font-size: 30px;
+}
+.sobrenosotros1 img {
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+.sobrenosotros2 h2 {
+  margin-left: 4%;
+}
+.sobrenosotros2 p {
+  margin: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box {
+  width: 40%;
+  margin: auto;
+  border: 2px solid #000000;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.campo {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.comentario {
+  width: 80%;
+  height: 100px;
+  outline: none;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.campo1 {
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  color: #000000;
+  margin: 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.footer li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1025px) {
+  .contenedorprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contenedorprincipal img {
+    width: 80%;
+  }
+  .galeria2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 840px) {
+  .contenedor .opciones {
+    margin: 30px;
+  }
+  .contenedor .recetario {
+    display: block;
+  }
+  .contenedor .recetario .receta {
+    margin: 10%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .sobrenosotros1 {
+    display: block;
+  }
+  .sobrenosotros1 img {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .box {
+    background-color: #FFE4C4;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 830px) {
+  .barrainicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span {
+  font-size: 40px;
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/gold-brush-stroke-texture-background-illustration_53876-157380.jpg?w=1480");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    color: #000000;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    li{
+        list-style: none;
+        display: inline;
+       padding: 10px;
+    }
+}
