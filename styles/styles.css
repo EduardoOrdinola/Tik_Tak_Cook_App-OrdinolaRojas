@@ -145,6 +145,35 @@
   font-size: 30px;
 }
 
+.cajitas {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.cajitas .cajita {
+  width: 100px;
+  height: 50px;
+}
+
+.cajitafacebook, .cajitatiktok, .cajitainstagram {
+  background-color: #ffdf99;
+}
+
+.cajitainstagram {
+  background-color: #ffe7bb;
+}
+
+.cajitatiktok {
+  background-color: #ffdfbb;
+}
+
+.cajitafacebook, .cajitatiktok, .cajitainstagram {
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+}
+
 .box {
   width: 40%;
   margin: auto;
@@ -198,9 +227,11 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .contenedorprincipal img {
     width: 80%;
   }
+
   .galeria2 {
     display: block;
   }
@@ -209,9 +240,11 @@
   .contenedor .opciones {
     margin: 30px;
   }
+
   .contenedor .recetario {
     display: block;
   }
+
   .contenedor .recetario .receta {
     margin: 10%;
   }
@@ -220,6 +253,7 @@
   .sobrenosotros1 {
     display: block;
   }
+
   .sobrenosotros1 img {
     max-width: 70%;
   }
@@ -269,6 +303,4 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

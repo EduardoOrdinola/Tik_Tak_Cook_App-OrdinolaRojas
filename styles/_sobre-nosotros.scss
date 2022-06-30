@@ -27,3 +27,34 @@
         font-size: 30px;
     }
 }
+
+.cajitas {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    .cajita{
+        @include anchos (100px, 50px);
+    }
+}
+
+@each $red, $colores in $redes {
+    .cajita#{$red}{
+        background-color: $colores;
+    }
+}
+
+.cajitafacebook {
+    margin: map-get($facebook, margin);
+    border-radius: map-get($facebook, border-radius);
+    border: map-get($facebook, border );
+}
+
+.cajitainstagram {
+    @extend .cajitafacebook
+}
+
+.cajitatiktok {
+    @extend .cajitafacebook
+}
