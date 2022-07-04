@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
+    <meta name="description" content="Ese es el sitio web de una aplicación desarrollada por amigos, que esperemos te ayude en la cocina">
+    <meta name="keywords" content="cook , cocina, aplicación, app">
      <!-- CSS only -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>GALERIA</title>
@@ -48,68 +50,70 @@
 <hr/>
 <!--CONTENT-->
 <article class="container">
-    <div class="btn-group">
-        <button class="btn btn-dark dropdown-toggle mt-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-            Tipo de comida
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#">Desayuno</a></li>
-            <li><a class="dropdown-item" href="#">Almuerzo</a></li>
-            <li><a class="dropdown-item" href="#">Cena</a></li>
-            <li><a class="dropdown-item" href="#">De todo</a></li>
-        </ul>
-    </div>
+    <div class="opciones">
+        <div class="btn-group">
+            <button class="btn btn-dark dropdown-toggle mt-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Tipo de comida
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Desayuno</a></li>
+                <li><a class="dropdown-item" href="#">Almuerzo</a></li>
+                <li><a class="dropdown-item" href="#">Cena</a></li>
+                <li><a class="dropdown-item" href="#">De todo</a></li>
+            </ul>
+        </div>
+            
+        <div class="btn-group">
+            <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" aria-expanded="false">
+                Dieta
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Baja en grasas</a></li>
+                <li><a class="dropdown-item" href="#">Alta en grasas</a></li>
+                <li><a class="dropdown-item" href="#">Sin gluten</a></li>
+                <li><a class="dropdown-item" href="#">Proteica</a></li>
+                <li><a class="dropdown-item" href="#">Vegetariana</a></li>
+                <li><a class="dropdown-item" href="#">De todo</a></li>
+            </ul>
+        </div>
+            
+        <div class="btn-group">
+            <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                Preparación
+            </button>
+            <ul class="dropdown-menu dropdown-menu-lg-end">
+                <li><a class="dropdown-item" href="#">20 min - 30 min</a></li>
+                <li><a class="dropdown-item" href="#">40 min - 60 min</a></li>
+                <li><a class="dropdown-item" href="#">60 min - 90 min</a></li>
+                <li><a class="dropdown-item" href="#">De todo</a></li>
+            </ul>
+        </div>
         
-    <div class="btn-group">
-        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" aria-expanded="false">
-            Dieta
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Baja en grasas</a></li>
-            <li><a class="dropdown-item" href="#">Alta en grasas</a></li>
-            <li><a class="dropdown-item" href="#">Sin gluten</a></li>
-            <li><a class="dropdown-item" href="#">Proteica</a></li>
-            <li><a class="dropdown-item" href="#">Vegetariana</a></li>
-            <li><a class="dropdown-item" href="#">De todo</a></li>
-        </ul>
-    </div>
-        
-    <div class="btn-group">
-        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-            Preparación
-        </button>
-        <ul class="dropdown-menu dropdown-menu-lg-end">
-            <li><a class="dropdown-item" href="#">20 min - 30 min</a></li>
-            <li><a class="dropdown-item" href="#">40 min - 60 min</a></li>
-            <li><a class="dropdown-item" href="#">60 min - 90 min</a></li>
-            <li><a class="dropdown-item" href="#">De todo</a></li>
-        </ul>
-    </div>
-    
-    <div class="btn-group">
-        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-            Ingredientes principales
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-            <li><a class="dropdown-item" href="#">Carnes</a></li>
-            <li><a class="dropdown-item" href="#">Pollo</a></li>
-            <li><a class="dropdown-item" href="#">Pescado</a></li>
-            <li><a class="dropdown-item" href="#">Vegetales</a></li>
-            <li><a class="dropdown-item" href="#">De todo</a></li>
-        </ul>
-    </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                Ingredientes principales
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                <li><a class="dropdown-item" href="#">Carnes</a></li>
+                <li><a class="dropdown-item" href="#">Pollo</a></li>
+                <li><a class="dropdown-item" href="#">Pescado</a></li>
+                <li><a class="dropdown-item" href="#">Vegetales</a></li>
+                <li><a class="dropdown-item" href="#">De todo</a></li>
+            </ul>
+        </div>
 
-    <div class="btn-group">
-        <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-            Cocina
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-            <li><a class="dropdown-item" href="#">China</a></li>
-            <li><a class="dropdown-item" href="#">Japonesa</a></li>
-            <li><a class="dropdown-item" href="#">Peruana</a></li>
-            <li><a class="dropdown-item" href="#">Argentina</a></li>
-            <li><a class="dropdown-item" href="#">De todo</a></li>
-        </ul>
+        <div class="btn-group">
+            <button type="button" class="btn btn-dark dropdown-toggle mt-3" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                Cocina
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                <li><a class="dropdown-item" href="#">China</a></li>
+                <li><a class="dropdown-item" href="#">Japonesa</a></li>
+                <li><a class="dropdown-item" href="#">Peruana</a></li>
+                <li><a class="dropdown-item" href="#">Argentina</a></li>
+                <li><a class="dropdown-item" href="#">De todo</a></li>
+            </ul>
+        </div>
     </div>
     <h3 class="fw-bold text-center mt-3">RECETAS RECIENTEMENTE BUSCADAS</h3>
     <div class="row">
