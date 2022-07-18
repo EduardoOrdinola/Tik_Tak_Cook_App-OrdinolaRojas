@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/gold-brush-stroke-texture-background-illustration_53876-157380.jpg?w=1480");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
 .opciones {
   display: flex;
   align-content: center;
@@ -46,16 +58,4 @@
   .opciones {
     display: block;
   }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-image: url("https://img.freepik.com/free-photo/gold-brush-stroke-texture-background-illustration_53876-157380.jpg?w=1480");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
